@@ -68,6 +68,24 @@ The project structure is organized as follows:
 
 6. Open your browser and visit `http://localhost:3000` to see your website.
 
+## Demo
+
+## Home page
+
+![App Screenshot](https://github.com/devgeek2700/CoffeeHouse_Webiste_using_NodeJs_and_MongoDB/blob/master/public/Output/register.png?raw=true)
+
+## About page
+
+![App Screenshot](https://github.com/devgeek2700/CoffeeHouse_Webiste_using_NodeJs_and_MongoDB/blob/master/public/Output/login.png?raw=true)
+ 
+## Contact Page
+
+![App Screenshot](https://github.com/devgeek2700/CoffeeHouse_Webiste_using_NodeJs_and_MongoDB/blob/master/public/Output/home.png?raw=true)
+
+## Services Page
+
+![App Screenshot](https://github.com/devgeek2700/CoffeeHouse_Webiste_using_NodeJs_and_MongoDB/blob/master/public/Output/home.png?raw=true)
+
 
 ## Contributing
 
