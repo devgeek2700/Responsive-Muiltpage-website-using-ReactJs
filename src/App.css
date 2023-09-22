@@ -1,38 +1,350 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Poppins", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+/* Navbar section */
+
+.navbar {
+  background-color: #e1e1e1;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo {
+  font-size: 2.5rem;
+  background: -webkit-linear-gradient(90deg, rgba(15, 80, 142, 1) 0%, rgba(246, 76, 183, 1) 49%, rgba(99, 208, 249, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.NavLink{
+  margin: 1rem;
+  text-decoration: none;
+  color: black;
+
+}
+
+.active_menu{
+  color: #e1e1e1;
+}
+
+
+
+
+/* Home section */
+
+.home_row{
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: space-around;
+}
+
+.left_h_box{
+  margin-top: 6rem;
+}
+
+h1{
+  font-size: 4rem;
+  text-transform: capitalize;
+}
+
+strong{
+  background: -webkit-linear-gradient(45deg, rgba(15, 80, 142, 1) 0%, rgba(246, 76, 183, 1) 49%, rgba(99, 208, 249, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2{
+  font-size: 20px;
+  color: #828080;
+  text-transform: capitalize;
+}
+
+.Btn a{
+  font-size: 20px;
+  text-decoration: none;
+  color: rgba(15, 80, 142, 1) ;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+.Btn a:hover{  
+  color: #fff;
+}
+
+
+
+/* Footer section */
+
+
+.footer-distributed {
+  background-color: rgba(15, 80, 142, 1) ;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 50px 50px 60px 50px;
+  margin-top: 80px;
+}
+
+.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+  width: 30%;
+}
+
+.footer-distributed h3 {
+  color: #ffffff;
+  font: normal 36px 'Cookie', cursive;
+  margin: 0;
+}
+
+
+.footer-distributed h3 span {
+  color: #e0ac1c;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+  color: #ffffff;
+  margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  margin: .5rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+  width: 35%;
+}
+
+.footer-distributed .footer-center i {
+  background-color: rgb(178, 215, 250) ;
+  color: rgba(15, 80, 142, 1) ;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+  font-size: 18px;
+  color: #e0ac1c;
+  text-decoration: none;
+  ;
+}
+
+.animated_img{
+  animation: home_img 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes home_img{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes home_img{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+
+
+/* Services Section */
+.serv_txt{
+  text-align: center;
+  color: rgba(15, 80, 142, 1);
+  margin-top: -2rem;
+}
+
+.servcolum1{
+  margin: 2rem;
+}
+
+.form_box{
+  margin-top: 10rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+  width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+  line-height: 20px;
+  color: #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+  display: block;
+  color: rgb(178, 215, 250) ;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: rgb(178, 215, 250) ;
+  border-radius: 2px;
+  font-size: 20px;
+  color: rgba(15, 80, 142, 1) ;
+  text-align: center;
+  padding-top: 1px;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover {
+  background-color: rgb(154, 203, 248) ;
+}
+
+.footer-links a:hover {
+  color: #e19f4e;
+}
+
+.strong_text{
+  font-weight: bold;
+  color: rgb(154, 203, 248) ;
+}
+
+
+
+
+
+
+
+/* Error Page */
+
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.gif {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.content {
+  text-align: center;
+  margin: 3rem 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content .main-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
 }
+
+p {
+  font-size: 1.3rem;
+  padding: 0.7rem 0;
+}
+
+button {
+  padding: 1rem;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  background: #0046d4;
+  color: #fff;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
