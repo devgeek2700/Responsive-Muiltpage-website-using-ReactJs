@@ -17,7 +17,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone this repository to your local machine:
 
    ```bash
-  git clone git@github.com:devgeek2700/Responsive-Muiltpage-website-using-ReactJs.git
+     git clone git@github.com:devgeek2700/Responsive-Muiltpage-website-using-ReactJs.git
    ```
 
 2. Navigate to the project directory:
