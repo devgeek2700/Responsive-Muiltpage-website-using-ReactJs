@@ -73,19 +73,19 @@ The project structure is organized as follows:
 
 ## Home page
 
-![App Screenshot](https://github.com/devgeek2700/CoffeeHouse_Webiste_using_NodeJs_and_MongoDB/blob/master/public/Output/register.png?raw=true)
+![App Screenshot](https://github.com/devgeek2700/Responsive-Muiltpage-website-using-ReactJs/blob/master/public/Output/output1.png?raw=true)
 
 ## About page
 
-![App Screenshot](https://github.com/devgeek2700/CoffeeHouse_Webiste_using_NodeJs_and_MongoDB/blob/master/public/Output/login.png?raw=true)
+![App Screenshot](https://github.com/devgeek2700/Responsive-Muiltpage-website-using-ReactJs/blob/master/public/Output/output2.png?raw=true)
  
 ## Contact Page
 
-![App Screenshot](https://github.com/devgeek2700/CoffeeHouse_Webiste_using_NodeJs_and_MongoDB/blob/master/public/Output/home.png?raw=true)
+![App Screenshot](https://github.com/devgeek2700/Responsive-Muiltpage-website-using-ReactJs/blob/master/public/Output/output4.png?raw=true)
 
 ## Services Page
 
-![App Screenshot](https://github.com/devgeek2700/CoffeeHouse_Webiste_using_NodeJs_and_MongoDB/blob/master/public/Output/home.png?raw=true)
+![App Screenshot](https://github.com/devgeek2700/Responsive-Muiltpage-website-using-ReactJs/blob/master/public/Output/output3.png?raw=true)
 
 
 ## Contributing
