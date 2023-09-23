@@ -1,5 +1,6 @@
 # Basic Responsive Multi-Page Website using ReactJS
 
+The goal of this project is to provide a starting point for creating a multi-page website using the ReactJS library. ReactJS is a popular JavaScript library for building user interfaces, and it's commonly used for single-page applications (SPAs). However, with the addition of routing, you can create a multi-page website within a React application.
 This project is a basic template for creating a responsive multi-page website using ReactJS. It provides a simple structure for building a website with multiple pages and responsive design.
 
 ## Prerequisites
