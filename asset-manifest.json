@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c9281f89.css",
+    "main.js": "/static/js/main.56ccba24.js",
+    "static/media/tour_1.jpg": "/static/media/tour_1.7af3b964a1060fcd4af4.jpg",
+    "static/media/tour3.jpg": "/static/media/tour3.7892ba3feb881a444fd3.jpg",
+    "static/media/tour4.jpg": "/static/media/tour4.c9e8198ea1504dabee11.jpg",
+    "static/media/bus_team.png": "/static/media/bus_team.cd35156dd3c0d4391c22.png",
+    "static/media/abt_img.png": "/static/media/abt_img.d89d9b6f4257510adde5.png",
+    "static/media/tour6.jpg": "/static/media/tour6.c7d08cb59809162ce13b.jpg",
+    "static/media/tour5.jpg": "/static/media/tour5.1a6e640157c3671ac286.jpg",
+    "index.html": "/index.html",
+    "main.c9281f89.css.map": "/static/css/main.c9281f89.css.map",
+    "main.56ccba24.js.map": "/static/js/main.56ccba24.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9281f89.css",
+    "static/js/main.56ccba24.js"
+  ]
+}
